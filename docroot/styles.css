@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+#translation, .translate {
+  margin: auto;
+  width: 700px;
+}
+.translate {
+  padding-bottom: 15px;
+}
+#translation {
+  border: 1px solid black;
+  height:  25px;
+  padding:  10px;
+  margin-bottom: 10px;
+}
+#menu {
+  margin: auto;
+  display: block;
+  position: absolute;
+  background-color: white;
+}
+#menu.open {
+  border: 1px solid black;
+  padding: 10px;
+}
+#menu #menuBody {
+  display: none;
+}
+#menu.open #menuBody {
+  display: block;
+}
+#menuIcon {
+  cursor:  pointer;
+  width: 50px;
+  font-size: 50px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
